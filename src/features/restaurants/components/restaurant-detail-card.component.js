@@ -7,8 +7,8 @@ import star from "../../../../assets/star";
 import open from "../../../../assets/open";
 
 import {
-  RestaurantCard,
-  RestaurantCardCover,
+  RestaurantDetail,
+  RestaurantDetailCover,
   Info,
   Section,
   SectionEnd,
@@ -17,7 +17,7 @@ import {
   Address,
 } from "./restaurant-info-card.styles";
 
-export const RestaurantInfoCard = ({ restaurant = {} }) => {
+export const RestaurantDetailCard = ({ restaurant = {} }) => {
   const {
     name = "Some Restaurant",
     icon = "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
@@ -34,8 +34,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
   const ratingArray = Array.from(new Array(Math.floor(rating)));
 
   return (
-    <RestaurantCard elevation={5}>
-      <RestaurantCardCover key={name} source={{ uri: photos[0] }} />
+    <RestaurantDetail>
       <Info>
         <Text variant="label">{name}</Text>
         <Section>
@@ -63,6 +62,6 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
         </Section>
         <Address>{address}</Address>
       </Info>
-    </RestaurantCard>
+    </RestaurantDetail>
   );
 };

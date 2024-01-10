@@ -1,4 +1,5 @@
 import camelize from "camelize";
+
 import { locations } from "./location.mock";
 
 export const locationRequest = (searchTerm) => {
