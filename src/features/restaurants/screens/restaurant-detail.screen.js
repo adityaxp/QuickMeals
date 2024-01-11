@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { ScrollView } from "react-native";
 import { List } from "react-native-paper";
-import { RestaurantDetailCard } from "../components/restaurant-detail-card.component";
+import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
 
 import { SafeArea } from "../../../components/utility/safe-area.component";
 
@@ -13,7 +13,7 @@ export const RestaurantDetailScreen = ({ route }) => {
   const { restaurant } = route.params;
   return (
     <SafeArea>
-      <RestaurantDetailCard restaurant={restaurant} />
+      <RestaurantInfoCard restaurant={restaurant} />
       <ScrollView>
         <List.Accordion
           title="Breakfast"
