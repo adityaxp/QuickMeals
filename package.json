@@ -13,6 +13,7 @@
   "dependencies": {
     "@expo-google-fonts/lato": "^0.2.3",
     "@expo-google-fonts/oswald": "^0.2.3",
+    "@react-native-async-storage/async-storage": "1.18.2",
     "@react-navigation/bottom-tabs": "^6.5.11",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/stack": "^6.3.20",
@@ -20,6 +21,7 @@
     "expo": "~49.0.15",
     "expo-font": "~11.4.0",
     "expo-status-bar": "~1.6.0",
+    "firebase": "^10.7.1",
     "react": "18.2.0",
     "react-native": "0.72.6",
     "react-native-gesture-handler": "~2.12.0",
