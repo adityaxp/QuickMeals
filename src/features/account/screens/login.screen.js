@@ -5,6 +5,7 @@ import {
   AccountContainer,
   AuthButton,
   AuthInput,
+  Title,
 } from "../components/account.styles";
 import { Text } from "../../../components/typography/text.component";
 import { Spacer } from "../../../components/spacer/spacer.component";
@@ -17,6 +18,7 @@ export const LoginScreen = () => {
   return (
     <AccountBackground>
       <AccountCover />
+      <Title>Quick Meals</Title>
       <AccountContainer>
         <AuthInput
           mode="outlined"
