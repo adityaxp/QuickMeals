@@ -1,4 +1,4 @@
-import React, { useState, createContext, useRef } from "react";
+import React, { useState, createContext, useRef, useEffect } from "react";
 import {
   signOut,
   createUserWithEmailAndPassword,
@@ -14,16 +14,19 @@ export const AuthenticationContextProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
-  const auth = useRef(getAuth()).current;
+  const auth = getAuth();
 
-  onAuthStateChanged(auth, (usr) => {
-    if (usr) {
-      setUser(usr);
-      setIsLoading(false);
-    } else {
-      setIsLoading(false);
-    }
-  });
+  useEffect(() => {
+    const unsubscribeFromAuthStateChanged = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        setUser(user);
+        //console.log(user.uid);
+      } else {
+        setUser(undefined);
+      }
+    });
+    return unsubscribeFromAuthStateChanged;
+  }, []);
 
   const onLogin = (email, password) => {
     setIsLoading(true);
