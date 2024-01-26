@@ -36,3 +36,5 @@ yarn-error.*
 
 #firebase
 firebase.js
+
+*/node_modules/**/*

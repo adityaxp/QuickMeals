@@ -1,0 +1,61 @@
+[debug] [2024-01-26T13:14:24.604Z] ----------------------------------------------------------------------
+[debug] [2024-01-26T13:14:24.607Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aditya\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2024-01-26T13:14:24.607Z] CLI Version:   13.1.0
+[debug] [2024-01-26T13:14:24.607Z] Platform:      win32
+[debug] [2024-01-26T13:14:24.607Z] Node Version:  v20.10.0
+[debug] [2024-01-26T13:14:24.608Z] Time:          Fri Jan 26 2024 18:44:24 GMT+0530 (India Standard Time)
+[debug] [2024-01-26T13:14:24.608Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-26T13:14:24.680Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-26T13:14:24.681Z] > authorizing via signed-in user (adityabalsane10@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2024-01-26T13:14:24.699Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-26T13:14:24.699Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-01-26T13:14:24.708Z] [hub] writing locator at C:\Users\Aditya\AppData\Local\Temp\hub-quickmeals-4dfcb.json
+[debug] [2024-01-26T13:14:24.723Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-26T13:14:24.723Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-01-26T13:14:24.723Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2024-01-26T13:14:24.725Z] defaultcredentials: writing to file C:\Users\Aditya\AppData\Roaming\firebase\adityabalsane10_gmail_com_application_default_credentials.json
+[debug] [2024-01-26T13:14:24.728Z] Setting GAC to C:\Users\Aditya\AppData\Roaming\firebase\adityabalsane10_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Aditya\\AppData\\Roaming\\firebase\\adityabalsane10_gmail_com_application_default_credentials.json"}}
+[debug] [2024-01-26T13:14:24.730Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/quickmeals-4dfcb/adminSdkConfig [none]
+[debug] [2024-01-26T13:14:25.514Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/quickmeals-4dfcb/adminSdkConfig 200
+[debug] [2024-01-26T13:14:25.514Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/quickmeals-4dfcb/adminSdkConfig {"projectId":"quickmeals-4dfcb","storageBucket":"quickmeals-4dfcb.appspot.com"}
+[debug] [2024-01-26T13:14:25.526Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-01-26T13:14:25.526Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-01-26T13:14:25.527Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Aditya\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Aditya\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-01-26T13:14:25.637Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-01-26T13:14:25.638Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\" for Cloud Functions..."}}
+[debug] [2024-01-26T13:14:25.809Z] Validating nodejs source
+[debug] [2024-01-26T13:14:27.110Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-26T13:14:27.111Z] Building nodejs source
+[debug] [2024-01-26T13:14:27.111Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-26T13:14:27.113Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-26T13:14:27.119Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
