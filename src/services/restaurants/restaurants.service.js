@@ -1,6 +1,12 @@
 import camelize from "camelize";
 
-export const restaurantsRequest = (location) => {};
+export const restaurantsRequest = (location) => {
+  return fetch(
+    `http://127.0.0.1:5001/quickmeals-4dfcb/us-central1/placesNearby?location=${location}`
+  ).then((res) => {
+    return res.json();
+  });
+};
 
 export const restaurantsTransform = ({ results = [] }) => {
   const mappedResults = results.map((restaurant) => {

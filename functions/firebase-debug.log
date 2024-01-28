@@ -213,3 +213,415 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2024-01-28T16:00:36.328Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=close"}}
 [debug] [2024-01-28T16:00:36.328Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
 [debug] [2024-01-28T16:00:36.373Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2024-01-28T16:04:38.184Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\index.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:04:39.197Z] Validating nodejs source
+[debug] [2024-01-28T16:04:40.786Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:04:40.786Z] Building nodejs source
+[debug] [2024-01-28T16:04:40.786Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:04:40.788Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:04:40.794Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8585
+
+[debug] [2024-01-28T16:04:41.455Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2024-01-28T16:04:46.486Z] [worker-pool] Shutting down IDLE worker (us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Shutting down IDLE worker (us-central1-placesNearby)"}}
+[debug] [2024-01-28T16:04:46.486Z] [worker-us-central1-placesNearby-1ef80fe3-6afa-4f2f-82af-36ed859eaddf]: FINISHING {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-1ef80fe3-6afa-4f2f-82af-36ed859eaddf]: FINISHING"}}
+[debug] [2024-01-28T16:04:46.493Z] [worker-us-central1-placesNearby-1ef80fe3-6afa-4f2f-82af-36ed859eaddf]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-1ef80fe3-6afa-4f2f-82af-36ed859eaddf]: exited"}}
+[debug] [2024-01-28T16:04:46.493Z] [worker-us-central1-placesNearby-1ef80fe3-6afa-4f2f-82af-36ed859eaddf]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-1ef80fe3-6afa-4f2f-82af-36ed859eaddf]: FINISHED"}}
+[debug] [2024-01-28T16:05:58.872Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\antwerp.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\antwerp.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:05:59.880Z] Validating nodejs source
+[debug] [2024-01-28T16:06:01.252Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:06:01.252Z] Building nodejs source
+[debug] [2024-01-28T16:06:01.252Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:06:01.255Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:06:01.262Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8179
+
+[debug] [2024-01-28T16:06:01.835Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-01-28T16:06:02.265Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\antwerp.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\antwerp.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:06:03.277Z] Validating nodejs source
+[debug] [2024-01-28T16:06:04.599Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:06:04.599Z] Building nodejs source
+[debug] [2024-01-28T16:06:04.599Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:06:04.602Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:06:04.608Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[debug] [2024-01-28T16:06:04.611Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\index.js changed, reloading triggers"}}
+[info] Serving at port 8577
+
+[debug] [2024-01-28T16:06:05.124Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2024-01-28T16:06:05.617Z] Validating nodejs source
+[debug] [2024-01-28T16:06:07.008Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:06:07.009Z] Building nodejs source
+[debug] [2024-01-28T16:06:07.009Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:06:07.010Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:06:07.016Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[info] Serving at port 8415
+
+[debug] [2024-01-28T16:06:07.512Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2024-01-28T16:06:19.721Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\chicago.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\chicago.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:06:20.732Z] Validating nodejs source
+[debug] [2024-01-28T16:06:22.110Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:06:22.110Z] Building nodejs source
+[debug] [2024-01-28T16:06:22.110Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:06:22.112Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:06:22.117Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8794
+
+[debug] [2024-01-28T16:06:22.639Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2024-01-28T16:06:40.330Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\san_francisco.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\san_francisco.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:06:41.332Z] Validating nodejs source
+[debug] [2024-01-28T16:06:43.761Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:06:43.761Z] Building nodejs source
+[debug] [2024-01-28T16:06:43.761Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:06:43.762Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:06:43.768Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8407
+
+[debug] [2024-01-28T16:06:44.348Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2024-01-28T16:06:55.044Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\toronto.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\toronto.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:06:56.050Z] Validating nodejs source
+[debug] [2024-01-28T16:06:57.472Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:06:57.472Z] Building nodejs source
+[debug] [2024-01-28T16:06:57.472Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:06:57.474Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:06:57.481Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8377
+
+[debug] [2024-01-28T16:06:57.998Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2024-01-28T16:07:57.507Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\index.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:07:58.513Z] Validating nodejs source
+[debug] [2024-01-28T16:07:59.882Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:07:59.882Z] Building nodejs source
+[debug] [2024-01-28T16:07:59.882Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:07:59.884Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:07:59.890Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8317
+
+[debug] [2024-01-28T16:08:00.412Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2024-01-28T16:09:26.862Z] [work-queue] {"queuedWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:09:26.861Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-28T16:09:26.862Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:09:26.861Z"],"workRunningCount":1}
+[debug] [2024-01-28T16:09:26.862Z] Accepted request GET /quickmeals-4dfcb/us-central1/placesNearby?location=Antwerp --> us-central1-placesNearby
+[debug] [2024-01-28T16:09:26.862Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-28T16:09:26.863Z] [functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=Antwerp, mapping to path=/?location=Antwerp {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=Antwerp, mapping to path=/?location=Antwerp"}}
+[debug] [2024-01-28T16:09:26.863Z] [worker-pool] Cleaned up workers for us-central1-placesNearby: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-placesNearby: 1 --> 0"}}
+[debug] [2024-01-28T16:09:26.870Z] [worker-pool] addWorker(us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-placesNearby)"}}
+[debug] [2024-01-28T16:09:26.870Z] [worker-pool] Adding worker with key us-central1-placesNearby, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-placesNearby, total=1"}}
+[debug] [2024-01-28T16:09:28.185Z] [runtime-status] [3904] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-01-28T16:09:28.186Z] [runtime-status] [3904] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:09:28.187Z] [runtime-status] [3904] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-01-28T16:09:28.188Z] [runtime-status] [3904] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:09:28.462Z] [runtime-status] [3904] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-01-28T16:09:28.463Z] [runtime-status] [3904] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2024-01-28T16:09:28.463Z] [runtime-status] [3904] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:09:28.465Z] [runtime-status] [3904] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-01-28T16:09:28.468Z] [runtime-status] [3904] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:09:28.468Z] [runtime-status] [3904] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2024-01-28T16:09:28.490Z] [runtime-status] [3904] Functions runtime initialized. {"cwd":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions","node_version":"20.10.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\",\"node_version\":\"20.10.0\"}"}}
+[debug] [2024-01-28T16:09:28.490Z] [runtime-status] [3904] Listening to port: \\?\pipe\fire_emu_e404010282c79e2d {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [3904] Listening to port: \\\\?\\pipe\\fire_emu_e404010282c79e2d"}}
+[debug] [2024-01-28T16:09:28.542Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE"}}
+[debug] [2024-01-28T16:09:28.543Z] [worker-pool] submitRequest(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-placesNearby)"}}
+[info] i  functions: Beginning execution of "us-central1-placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"us-central1-placesNearby\""}}
+[debug] [2024-01-28T16:09:28.544Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: BUSY"}}
+[debug] [2024-01-28T16:09:28.549Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-placesNearby" in 5.0966ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"us-central1-placesNearby\" in 5.0966ms"}}
+[debug] [2024-01-28T16:09:28.550Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE"}}
+[debug] [2024-01-28T16:09:28.550Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-28T16:09:28.550Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-28T16:09:28.550Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-28T16:09:40.538Z] [work-queue] {"queuedWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:09:40.538Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-28T16:09:40.538Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:09:40.538Z"],"workRunningCount":1}
+[debug] [2024-01-28T16:09:40.538Z] Accepted request GET /quickmeals-4dfcb/us-central1/placesNearby?location=somelocation --> us-central1-placesNearby
+[debug] [2024-01-28T16:09:40.539Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-28T16:09:40.539Z] [functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=somelocation, mapping to path=/?location=somelocation {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=somelocation, mapping to path=/?location=somelocation"}}
+[debug] [2024-01-28T16:09:40.539Z] [worker-pool] submitRequest(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-placesNearby)"}}
+[info] i  functions: Beginning execution of "us-central1-placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"us-central1-placesNearby\""}}
+[debug] [2024-01-28T16:09:40.540Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: BUSY"}}
+[debug] [2024-01-28T16:09:40.542Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-placesNearby" in 2.3172ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"us-central1-placesNearby\" in 2.3172ms"}}
+[debug] [2024-01-28T16:09:40.543Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE"}}
+[debug] [2024-01-28T16:09:40.543Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-28T16:09:40.543Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-28T16:09:40.543Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-28T16:11:39.140Z] [work-queue] {"queuedWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:11:39.140Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-28T16:11:39.140Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:11:39.140Z"],"workRunningCount":1}
+[debug] [2024-01-28T16:11:39.140Z] Accepted request GET /quickmeals-4dfcb/us-central1/placesNearby?location=37.7749295,-122.4194155 --> us-central1-placesNearby
+[debug] [2024-01-28T16:11:39.140Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-28T16:11:39.141Z] [functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155"}}
+[debug] [2024-01-28T16:11:39.141Z] [worker-pool] submitRequest(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-placesNearby)"}}
+[info] i  functions: Beginning execution of "us-central1-placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"us-central1-placesNearby\""}}
+[debug] [2024-01-28T16:11:39.142Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: BUSY"}}
+[warn] !  functions: TypeError: undefined is not a function
+    at Array.map (<anonymous>)
+    at module.exports.placesRequest (C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\index.js:8:33)
+    at C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\index.js:10:3
+    at cloudFunction (C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\firebase-functions\lib\v1\providers\https.js:51:16)
+    at C:\Users\Aditya\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:532:16
+    at runFunction (C:\Users\Aditya\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:506:15)
+    at runHTTPS (C:\Users\Aditya\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:531:11)
+    at C:\Users\Aditya\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:694:27
+    at Layer.handle [as handle_request] (C:\Users\Aditya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Aditya\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\express\lib\router\route.js:144:13) {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"TypeError: undefined is not a function\n    at Array.map (<anonymous>)\n    at module.exports.placesRequest (C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\index.js:8:33)\n    at C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\index.js:10:3\n    at cloudFunction (C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\providers\\https.js:51:16)\n    at C:\\Users\\Aditya\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:532:16\n    at runFunction (C:\\Users\\Aditya\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:506:15)\n    at runHTTPS (C:\\Users\\Aditya\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:531:11)\n    at C:\\Users\\Aditya\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:694:27\n    at Layer.handle [as handle_request] (C:\\Users\\Aditya\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Aditya\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\node_modules\\express\\lib\\router\\route.js:144:13)"}}
+[warn] !  Your function was killed because it raised an unhandled error. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Your function was killed because it raised an unhandled error."}}
+[debug] [2024-01-28T16:11:39.148Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-placesNearby" in 6.6049ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"us-central1-placesNearby\" in 6.6049ms"}}
+[debug] [2024-01-28T16:11:39.149Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: IDLE"}}
+[debug] [2024-01-28T16:11:39.149Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-28T16:11:39.149Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-28T16:11:39.149Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-28T16:11:39.155Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: exited {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: exited"}}
+[debug] [2024-01-28T16:11:39.156Z] [worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: FINISHED {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-7aac4181-9ac1-427d-9ed5-08b45ccf842a]: FINISHED"}}
+[debug] [2024-01-28T16:12:34.816Z] File C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\places\mock\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\places\\mock\\index.js changed, reloading triggers"}}
+[debug] [2024-01-28T16:12:35.823Z] Validating nodejs source
+[debug] [2024-01-28T16:12:37.184Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^9.2.0",
+    "firebase-functions": "^3.11.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2024-01-28T16:12:37.184Z] Building nodejs source
+[debug] [2024-01-28T16:12:37.184Z] Failed to find version of module node: reached end of search path C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules
+[info] +  functions: Using node@20 from host. 
+[debug] [2024-01-28T16:12:37.186Z] Could not find functions.yaml. Must use http discovery
+[debug] [2024-01-28T16:12:37.192Z] Found firebase-functions binary at 'C:\Users\Aditya\ZTM\ReactNativeProjects\QuickMeals\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8112
+
+[debug] [2024-01-28T16:12:37.706Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2024-01-28T16:12:54.168Z] [work-queue] {"queuedWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:12:54.168Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2024-01-28T16:12:54.169Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/quickmeals-4dfcb/us-central1/placesNearby-2024-01-28T16:12:54.168Z"],"workRunningCount":1}
+[debug] [2024-01-28T16:12:54.169Z] Accepted request GET /quickmeals-4dfcb/us-central1/placesNearby?location=37.7749295,-122.4194155 --> us-central1-placesNearby
+[debug] [2024-01-28T16:12:54.169Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2024-01-28T16:12:54.169Z] [functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/quickmeals-4dfcb/us-central1/placesNearby?location=37.7749295,-122.4194155, mapping to path=/?location=37.7749295,-122.4194155"}}
+[debug] [2024-01-28T16:12:54.169Z] [worker-pool] Cleaned up workers for us-central1-placesNearby: 1 --> 0 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Cleaned up workers for us-central1-placesNearby: 1 --> 0"}}
+[debug] [2024-01-28T16:12:54.175Z] [worker-pool] addWorker(us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-placesNearby)"}}
+[debug] [2024-01-28T16:12:54.176Z] [worker-pool] Adding worker with key us-central1-placesNearby, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-placesNearby, total=1"}}
+[debug] [2024-01-28T16:12:55.396Z] [runtime-status] [16216] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-01-28T16:12:55.398Z] [runtime-status] [16216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:12:55.398Z] [runtime-status] [16216] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2024-01-28T16:12:55.399Z] [runtime-status] [16216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:12:55.671Z] [runtime-status] [16216] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Checked functions.config() {\"config\":{}}"}}
+[debug] [2024-01-28T16:12:55.671Z] [runtime-status] [16216] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2024-01-28T16:12:55.672Z] [runtime-status] [16216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:12:55.673Z] [runtime-status] [16216] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2024-01-28T16:12:55.676Z] [runtime-status] [16216] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.6.0","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.6.0\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2024-01-28T16:12:55.677Z] [runtime-status] [16216] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.11.1","resolution":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.11.1\",\"resolution\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2024-01-28T16:12:55.698Z] [runtime-status] [16216] Functions runtime initialized. {"cwd":"C:\\Users\\Aditya\\ZTM\\ReactNativeProjects\\QuickMeals\\functions","node_version":"20.10.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Aditya\\\\ZTM\\\\ReactNativeProjects\\\\QuickMeals\\\\functions\",\"node_version\":\"20.10.0\"}"}}
+[debug] [2024-01-28T16:12:55.699Z] [runtime-status] [16216] Listening to port: \\?\pipe\fire_emu_b21e4fe7fb4fe123 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[runtime-status] [16216] Listening to port: \\\\?\\pipe\\fire_emu_b21e4fe7fb4fe123"}}
+[debug] [2024-01-28T16:12:55.726Z] [worker-us-central1-placesNearby-c80a1a24-583b-4101-9c83-78dc324788f1]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-c80a1a24-583b-4101-9c83-78dc324788f1]: IDLE"}}
+[debug] [2024-01-28T16:12:55.726Z] [worker-pool] submitRequest(triggerId=us-central1-placesNearby) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-placesNearby)"}}
+[info] i  functions: Beginning execution of "us-central1-placesNearby" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Beginning execution of \"us-central1-placesNearby\""}}
+[debug] [2024-01-28T16:12:55.727Z] [worker-us-central1-placesNearby-c80a1a24-583b-4101-9c83-78dc324788f1]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-c80a1a24-583b-4101-9c83-78dc324788f1]: BUSY"}}
+[debug] [2024-01-28T16:12:55.732Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-placesNearby" in 5.2423ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finished \"us-central1-placesNearby\" in 5.2423ms"}}
+[debug] [2024-01-28T16:12:55.733Z] [worker-us-central1-placesNearby-c80a1a24-583b-4101-9c83-78dc324788f1]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"[worker-us-central1-placesNearby-c80a1a24-583b-4101-9c83-78dc324788f1]: IDLE"}}
+[debug] [2024-01-28T16:12:55.733Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2024-01-28T16:12:55.733Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-placesNearby"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2024-01-28T16:12:55.733Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
