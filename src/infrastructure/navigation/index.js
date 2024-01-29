@@ -6,10 +6,10 @@ import { AccountNavigator } from "./account.navigator";
 import { NavigationContainer } from "@react-navigation/native";
 export const Navigation = () => {
   const { isAuthenticated } = useContext(AuthenticationContext);
-  // console.log(isAuthenticated); {isAuthenticated ? <AppNavigator /> : <AccountNavigator />}
+  // console.log(isAuthenticated); {}
   return (
     <NavigationContainer>
-      {isAuthenticated ? <AccountNavigator /> : <AppNavigator />}
+      {isAuthenticated ? <AppNavigator /> : <AccountNavigator />}
     </NavigationContainer>
   );
 };
