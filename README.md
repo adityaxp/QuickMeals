@@ -4,6 +4,6 @@ QuickMeals is a React Native mobile app focused on enhancing your dining experie
 
 <hr>
 
-https://github.com/adityaxp/FocusTime/assets/61054881/2dcea995-083b-4286-bf9e-c5452fa3e0c1
+https://github.com/adityaxp/RaspiCarV2/assets/61054881/0d0584c4-b31e-4198-ad56-650e0ed72ede
 
 <hr>
